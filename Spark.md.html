@@ -1,0 +1,158 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Spark.md</title><style></style></head><body id="preview">
+<style>
+body {font-size:1.0em;}
+h1 {font-size:1.2em;}
+h2 {font-size:1.1em;}
+</style>
+<h1><a id="Day_2___Spark__0"></a>Day 2 -  Spark 从入门到进阶</h1>
+<p>Spark 由加州大学伯克利分校 AMP 实验室 (Algorithms, Machines, and People Lab) 开发，可用来构建大型的、低延迟的数据分析应用程序,是新一代高速数据处理引擎，Spark能更好地适用于数据挖掘与机器学习等需要迭代的MapReduce的算法。截止到2016年，有超过1000个大型组织和公司将Spark应用与生产环境。本次课程覆盖Spark核心概念与架构，同时对Spark 在数据与机器学习领域的应用做介绍。课程还覆盖BDAS高阶应用主题，以及Spark在生产环境，云计算环境的部署。最后还会对Spark在互联网巨头的应用场景做介绍。</p>
+<p>安排</p>
+<ul>
+<li>Spark　介绍</li>
+<li>理解Spark 系统</li>
+<li>Spark 基础</li>
+<li>分析日志挖掘程序</li>
+<li>Spark Data Workflows
+<ul>
+<li>Spark Steamings</li>
+<li>Spark SQL</li>
+<li>Spark MLlib</li>
+</ul>
+</li>
+<li>Spark 高阶主题　BDAS</li>
+<li>Lab 1 安装Spark</li>
+<li>Spark 生产环境部署
+<ul>
+<li>构建</li>
+<li>本地部署与云端部署</li>
+<li>监控</li>
+</ul>
+</li>
+<li>Spark 案例分享
+<ul>
+<li>Twitter</li>
+<li>Ebay</li>
+<li>Yahoo</li>
+<li>Tecent</li>
+</ul>
+</li>
+<li>Lab 2 算法
+<ol>
+<li>使用蒙特卡洛方法计算Pi值</li>
+<li>使用K-Means方法聚类向量值</li>
+</ol>
+</li>
+</ul>
+<p>成果</p>
+<ul>
+<li>使用Spark Shell</li>
+<li>使用一些机器学习算法</li>
+<li>了解Spark SQL /  Spark Streaming</li>
+<li>了解Spark　高级主题与BDAS项目</li>
+<li>了解Spark 开发者社区的资源</li>
+<li>了解工业界使用案例</li>
+</ul>
+<h1><a id="Spark__37"></a>Spark 介绍</h1>
+<ul>
+<li>Spark设计目标</li>
+<li>Spark生态系统</li>
+<li>发展历史介绍</li>
+</ul>
+<h1><a id="Spark_43"></a>理解Spark</h1>
+<ul>
+<li>Spark Vs MapR , MiniBatch System and LocalCache</li>
+<li>对机器学习算法的优化</li>
+<li>软件架构与新生硬件架构的匹配</li>
+<li>批处理系统/交互查询/流式计算</li>
+<li></li>
+</ul>
+<h1><a id="Spark__49"></a>Spark 基础</h1>
+<ul>
+<li>Spark Context</li>
+<li>Master</li>
+<li>Spark RDDs  编程模型
+<ul>
+<li>RDD 介绍</li>
+<li>RDD 容错机制</li>
+</ul>
+</li>
+<li>Transformations</li>
+<li>Actions</li>
+<li>Persistence</li>
+<li>Broadcast Variables</li>
+<li>Accumulators</li>
+<li>(K,V) Pairs</li>
+</ul>
+<h1><a id="_62"></a>分析日志挖掘程序</h1>
+<ul>
+<li>RDD 初始化</li>
+<li>RDD Transform / Operator Graph</li>
+<li>RDD Actions</li>
+<li>RDD 逻辑回归算法与性能对比</li>
+</ul>
+<h1><a id="Spark_Data_Workflows_68"></a>Spark Data Workflows</h1>
+<ul>
+<li>Data Workflows介绍</li>
+<li>Spark SQL
+<ul>
+<li>通过HiveQL查询</li>
+<li>Parquet</li>
+<li>DSL 领域描述语言</li>
+</ul>
+</li>
+<li>Spark Streaming</li>
+<li>MLlib 机器学习库</li>
+<li></li>
+</ul>
+<h1><a id="Data_Workflows_　BDAS__78"></a>Data Workflows 高阶主题　BDAS 项目</h1>
+<ul>
+<li>BlinkDB</li>
+<li>GraphX</li>
+<li>Tachyon</li>
+<li></li>
+</ul>
+<h1><a id="Lab_1_84"></a>Lab 1</h1>
+<ul>
+<li>安装Spark</li>
+</ul>
+<h1><a id="Spark__87"></a>Spark 生产环境部署</h1>
+<ul>
+<li>构建</li>
+<li>部署
+<ul>
+<li>部署到Apache Mesos</li>
+<li>部署到Amazon EC2</li>
+<li>SIMR</li>
+<li>HDFS 示例</li>
+</ul>
+</li>
+</ul>
+<h1><a id="Spark__94"></a>Spark 监控</h1>
+<ul>
+<li>监控UI</li>
+<li>验证任务执行状态</li>
+<li>works 与 Stages跟踪</li>
+<li>查看 stdout 与　stderr 日志</li>
+<li>问题分析与故障排查</li>
+<li></li>
+</ul>
+<h1><a id="Spark__102"></a>Spark 案例分享</h1>
+<ul>
+<li>Spark @ Twitter</li>
+<li>Spark @ Yahoo</li>
+<li>Spark @ Spotify</li>
+<li>Spark @ Tencent</li>
+<li></li>
+</ul>
+<h1><a id="Lab_2__109"></a>Lab 2 算法</h1>
+<ul>
+<li>使用蒙特卡洛方法计算Pi值</li>
+<li>使用K-Means方法聚类向量值</li>
+</ul>
+<h1><a id="Spark__113"></a>Spark 学习资源汇总</h1>
+<ul>
+<li>[<a href="http://strataconf.com/stratany2014">strataconf.com/stratany2014</a>] (Stratany NYC,Oct 15-17)</li>
+<li>[<a href="http://spark.apache.org/community.html">spark.apache.org/community.html</a>] (Official Communtiy)</li>
+</ul>
+
+</body></html>

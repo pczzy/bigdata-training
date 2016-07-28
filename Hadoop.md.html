@@ -1,0 +1,207 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Hadoop.md</title><style></style></head><body id="preview">
+<style>
+body {font-size:1.0em;}
+h1 {font-size:1.2em;}
+h2 {font-size:1.1em;}
+</style>
+<h1><a id="Hadoop__0"></a>Hadoop 从入门到进阶</h1>
+<p>Hadoop自2006年诞生以来，经过10年的发展，已经成为大数据领域生态最为成熟的解决方案，本次课程覆盖了Hadoop系统最重要几个方面 包括如何配置单机Hadoop系统，高级集群配置，使用分布式 文件系统，开发基于Hadoop MapReduce的复杂应用程序，Hadoop批量处理 和查询工具Pig/Hive。 我们还会介绍主流的商业化的Hadoop系统，以及成熟的云计算 平台Amazon Cloud和Ali Cloud 对于Hadoop的支持。 最后介绍Hadoop领域的最新进展，包括大数据系统监管，云计算，大数据，IOT的应用融合</p>
+<h1><a id="_4"></a>大数据介绍</h1>
+<ul>
+<li>大数据特性</li>
+<li>Hadoop发展历史</li>
+<li>主流大数据处理技术以及适用场景</li>
+<li>Hadoop / Spark</li>
+</ul>
+<h1><a id="Hadoop_11"></a>Hadoop介绍</h1>
+<h2><a id="_12"></a>本节目标</h2>
+<ul>
+<li>了解Hadoop的适用范围</li>
+<li>了解Hadoop如何采用自己的方式解决这些问题</li>
+</ul>
+<h1><a id="Hadoop__17"></a>Hadoop 适用范围</h1>
+<ul>
+<li>Hadoop是大规模分布式批处理基础设施</li>
+<li>Hadoop处理的数据量的规模，多大？</li>
+<li>大规模系统的挑战</li>
+<li>摩尔定律</li>
+</ul>
+<h1><a id="Hadoop_23"></a>Hadoop解决大数据问题方法</h1>
+<ul>
+<li>其他大数据处理技术比较</li>
+<li>数据分布</li>
+<li>MapReduce 隔离的处理过程</li>
+<li>线性扩展</li>
+</ul>
+<h1><a id="Hadoop__HDFS_29"></a>Hadoop 核心技术 分布式文件系统HDFS</h1>
+<h2><a id="_30"></a>本节目标</h2>
+<ul>
+<li>Hadoop 分布式文件系统(HDFS)架构，以及如何同分布式系统的概念相关联</li>
+<li>如何通过命令行安装和使用HDFS</li>
+<li>如何在应用程序中使用HDFS存储和读取数据</li>
+</ul>
+<h1><a id="_36"></a>分布式文件系统基础</h1>
+<ul>
+<li>NFS</li>
+<li>HDFS</li>
+</ul>
+<h1><a id="HDFS_40"></a>配置使用HDFS</h1>
+<ul>
+<li>分布式文件系统集群配置</li>
+<li>启动HDFS文件系统</li>
+<li>同HDFS文件系统交互</li>
+<li>从HDFS获取数据</li>
+<li>关闭HDFS文件系统</li>
+<li>文件系统健康检查</li>
+</ul>
+<h1><a id="HDFS_48"></a>HDFS安全管理</h1>
+<h1><a id="MapReduce_50"></a>计算模型MapReduce</h1>
+<h2><a id="_51"></a>本节目标</h2>
+<ul>
+<li>理解MapReduce函数式编程范式</li>
+<li>理解MapReduce执行流程</li>
+<li>了解如何为Hadoop MapReduce编写程序</li>
+</ul>
+<h1><a id="MapReduce__56"></a>MapReduce 基础</h1>
+<ul>
+<li>函数式编程概念</li>
+<li>列表处理</li>
+<li>Mapping 过程</li>
+<li>Reducing 过程</li>
+<li>整合　Mapping / Reducing</li>
+<li>Word Count示例</li>
+</ul>
+<h1><a id="MapReduce__65"></a>MapReduce 数据流</h1>
+<ul>
+<li>理解MapReduct数据流</li>
+<li>MapReduce 便利工具</li>
+<li>容错处理</li>
+</ul>
+<h1><a id="MapReduce_71"></a>MapReduce实用技巧</h1>
+<ul>
+<li>链式任务处理</li>
+<li>Troubleshooting: 调试 MapReduce</li>
+<li>MapReduce任务监控，管理</li>
+</ul>
+<h1><a id="MapReduce__78"></a>MapReduce 高阶内容</h1>
+<h2><a id="_79"></a>本节目标</h2>
+<ul>
+<li>理解Hadoop高级特性</li>
+<li>在公有云平台使用Hadoop (Amazon EC2 / S3)</li>
+</ul>
+<h1><a id="_83"></a>定制数据类型</h1>
+<ul>
+<li>Writable 类型</li>
+<li>Custom Key 类型</li>
+<li>使用定制数据类型</li>
+<li>快速比较操作</li>
+</ul>
+<h1><a id="_90"></a>输入数据格式</h1>
+<ul>
+<li>定制文件格式</li>
+<li>数据源选择</li>
+</ul>
+<h1><a id="_94"></a>输出数据格式</h1>
+<ul>
+<li>数据分区</li>
+<li>用户定制关键指标汇报</li>
+<li>使用亚马逊Web Services</li>
+</ul>
+<h1><a id="Hadoop_100"></a>生产环境部署Hadoop实务</h1>
+<h2><a id="Hadoop_102"></a>Hadoop安装</h2>
+<ul>
+<li>Java 版本需求Requirements</li>
+<li>操作系统需求</li>
+<li>下载安装Hadoop</li>
+<li>重要目录介绍</li>
+</ul>
+<h2><a id="_108"></a>服务器选型</h2>
+<ul>
+<li>集群配置</li>
+<li>小规模: 2-10 节点</li>
+<li>中等规模: 10-40 节点
+大型集群: 多机架</li>
+</ul>
+<h2><a id="_114"></a>性能监控</h2>
+<ul>
+<li>Ganglia</li>
+<li>Nagios</li>
+<li>Ambari</li>
+</ul>
+<h1><a id="Apache_Hadoop_Pig_120"></a>Apache Hadoop Pig</h1>
+<h2><a id="_121"></a>本节目标</h2>
+<ul>
+<li>介绍Hadoop　数据自动化处理脚本工具</li>
+</ul>
+<h1><a id="_124"></a>通过脚本语言自动化数据处理</h1>
+<ul>
+<li>Pig 核心特征介绍</li>
+<li>Pig 主要应用场景介绍</li>
+<li>Pig 组件介绍</li>
+<li>Pig 工作原理简介</li>
+</ul>
+<h1><a id="Apache_Hive_130"></a>Apache Hive</h1>
+<h2><a id="_131"></a>本节目标</h2>
+<ul>
+<li>介绍基于分布式系统的数据仓库Hive 查询和管理海量数据集</li>
+</ul>
+<h1><a id="Hive_134"></a>Hive介绍</h1>
+<ul>
+<li>为什么需要新的数据仓库系统</li>
+<li>Hive应用场景</li>
+<li>Hive主要组件介绍</li>
+<li>Hive查询语言</li>
+<li>SQL vs NoSQL</li>
+<li>Hive在Facebook中的应用</li>
+</ul>
+<h1><a id="Hadoop_144"></a>Hadoop商用解决方案</h1>
+<h2><a id="_145"></a>本节目标</h2>
+<ul>
+<li>比较主流基于开源方案的Hadoop系统，以及企业在选择商业方案时主要考量</li>
+</ul>
+<h2><a id="_148"></a>商用解决方案</h2>
+<ul>
+<li>Cloudera</li>
+<li>MapR</li>
+<li>HortonWorks</li>
+<li>Apache Hadoop</li>
+<li>商用方案综合比较</li>
+</ul>
+<h1><a id="Hadoop_156"></a>Hadoop在主流互联网巨头的应用</h1>
+<p>##本节目标</p>
+<ul>
+<li>了解Hadoop相关技术对互联网业务的支持</li>
+</ul>
+<h1><a id="_160"></a>应用场景</h1>
+<ul>
+<li>产品发展策略的数据支持</li>
+<li>推荐系统</li>
+<li>广告定向与优化</li>
+<li>文本分析工具</li>
+<li>监控与运维工具</li>
+</ul>
+<h1><a id="Hadoop__168"></a>Hadoop 最新进展</h1>
+<h2><a id="_169"></a>本节目标</h2>
+<ul>
+<li>了解Hadoop领域的最新进展，包括Hadoop在云端部署，物联网的融合，了解企业级的安全监管技术</li>
+</ul>
+<h1><a id="Apache_Atlas__172"></a>Apache Atlas 开源大数据监管技术</h1>
+<ul>
+<li>数据分类</li>
+<li>集中审计</li>
+<li>搜索，浏览</li>
+<li>安全策略引擎</li>
+</ul>
+<h1><a id="AliYun_MaxCompute__178"></a>AliYun MaxCompute 介绍</h1>
+<h1><a id="Amazon_EMR_Cluster　_179"></a>Amazon EMR Cluster　介绍</h1>
+<h1><a id="Hadoop_Iot_180"></a>Hadoop 与Iot</h1>
+<h1><a id="Hadoop_183"></a>Hadoop实验室</h1>
+<ul>
+<li>搭建MapReduce实验环境</li>
+<li>定制分区</li>
+<li>Counter　案例</li>
+<li>Combiner 适用场景实验</li>
+</ul>
+<h1><a id="Hadoop__189"></a>Hadoop 学习资源汇总</h1>
+
+</body></html>
