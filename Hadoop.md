@@ -188,5 +188,4 @@ Hadoop自2006年诞生以来，经过10年的发展，已经成为大数据领�
   - Combiner 适用场景实验
 
 # Hadoop 学习资源汇总
-  - [http://wiki.apache.org/hadoop/](Hadoop Wiki)
-  - []
+  - [http://wiki.apache.org/hadoop] (Hadoop Wiki)
