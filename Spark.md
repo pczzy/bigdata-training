@@ -112,5 +112,5 @@ Spark 由加州大学伯克利分校 AMP 实验室 (Algorithms, Machines, and Pe
  - 使用K-Means方法聚类向量值
     
 # Spark 学习资源汇总
- - [strataconf.com/stratany2014] (Stratany NYC,Oct 15-17)
- - [spark.apache.org/community.html] (Official Communtiy)
+ - [Stratany NYC,Oct 15-17](strataconf.com/stratany2014)
+ - [Official Communtiy](spark.apache.org/community.html)
